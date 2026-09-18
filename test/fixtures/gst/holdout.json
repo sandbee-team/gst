@@ -1,0 +1,66 @@
+[
+  {
+    "image": "holdout-01.png",
+    "label": "810951"
+  },
+  {
+    "image": "holdout-02.png",
+    "label": "620989"
+  },
+  {
+    "image": "holdout-03.png",
+    "label": "992785"
+  },
+  {
+    "image": "holdout-04.png",
+    "label": "455757"
+  },
+  {
+    "image": "holdout-05.png",
+    "label": "141118"
+  },
+  {
+    "image": "holdout-06.png",
+    "label": "169163"
+  },
+  {
+    "image": "holdout-07.png",
+    "label": "813669"
+  },
+  {
+    "image": "holdout-08.png",
+    "label": "646730"
+  },
+  {
+    "image": "holdout-09.png",
+    "label": "256695"
+  },
+  {
+    "image": "holdout-10.png",
+    "label": "387850"
+  },
+  {
+    "image": "holdout-11.png",
+    "label": "255444"
+  },
+  {
+    "image": "holdout-12.png",
+    "label": "366471"
+  },
+  {
+    "image": "holdout-13.png",
+    "label": "727412"
+  },
+  {
+    "image": "holdout-14.png",
+    "label": "829082"
+  },
+  {
+    "image": "holdout-15.png",
+    "label": "511525"
+  },
+  {
+    "image": "holdout-16.png",
+    "label": "527167"
+  }
+]

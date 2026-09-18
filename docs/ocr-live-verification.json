@@ -1,0 +1,230 @@
+{
+  "startedAt": "2026-09-18T12:25:19.060Z",
+  "requestedLookups": 10,
+  "runs": [
+    {
+      "status": "success",
+      "attempts": 2,
+      "submissions": 2,
+      "elapsedMs": 2290,
+      "ocrMs": 31.25
+    },
+    {
+      "status": "success",
+      "attempts": 1,
+      "submissions": 1,
+      "elapsedMs": 3620,
+      "ocrMs": 35.53
+    },
+    {
+      "status": "success",
+      "attempts": 1,
+      "submissions": 1,
+      "elapsedMs": 942,
+      "ocrMs": 29.87
+    },
+    {
+      "status": "success",
+      "attempts": 1,
+      "submissions": 1,
+      "elapsedMs": 937,
+      "ocrMs": 36.22
+    },
+    {
+      "status": "success",
+      "attempts": 1,
+      "submissions": 1,
+      "elapsedMs": 948,
+      "ocrMs": 31.86
+    },
+    {
+      "status": "success",
+      "attempts": 1,
+      "submissions": 1,
+      "elapsedMs": 1073,
+      "ocrMs": 36.13
+    },
+    {
+      "status": "success",
+      "attempts": 1,
+      "submissions": 1,
+      "elapsedMs": 1556,
+      "ocrMs": 34.73
+    },
+    {
+      "status": "success",
+      "attempts": 1,
+      "submissions": 1,
+      "elapsedMs": 591,
+      "ocrMs": 32.28
+    },
+    {
+      "status": "success",
+      "attempts": 1,
+      "submissions": 1,
+      "elapsedMs": 943,
+      "ocrMs": 33.85
+    },
+    {
+      "status": "success",
+      "attempts": 1,
+      "submissions": 1,
+      "elapsedMs": 1402,
+      "ocrMs": 30.64
+    }
+  ],
+  "challenges": [
+    {
+      "id": 1,
+      "portalAccepted": null,
+      "text": "178263",
+      "score": 0.9184,
+      "autoSubmit": true,
+      "ocrMs": 58.8,
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1,
+        "radius": 47
+      }
+    },
+    {
+      "id": 2,
+      "portalAccepted": true,
+      "text": "549800",
+      "score": 0.9992,
+      "autoSubmit": true,
+      "ocrMs": 31.25,
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1,
+        "radius": 46
+      }
+    },
+    {
+      "id": 3,
+      "portalAccepted": true,
+      "text": "912188",
+      "score": 0.9786,
+      "autoSubmit": true,
+      "ocrMs": 35.53,
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1,
+        "radius": 53
+      }
+    },
+    {
+      "id": 4,
+      "portalAccepted": true,
+      "text": "659862",
+      "score": 0.9999,
+      "autoSubmit": true,
+      "ocrMs": 29.87,
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1,
+        "radius": 45
+      }
+    },
+    {
+      "id": 5,
+      "portalAccepted": true,
+      "text": "690794",
+      "score": 0.9994,
+      "autoSubmit": true,
+      "ocrMs": 36.22,
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1,
+        "radius": 48
+      }
+    },
+    {
+      "id": 6,
+      "portalAccepted": true,
+      "text": "903084",
+      "score": 0.9907,
+      "autoSubmit": true,
+      "ocrMs": 31.86,
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1,
+        "radius": 55
+      }
+    },
+    {
+      "id": 7,
+      "portalAccepted": true,
+      "text": "684520",
+      "score": 0.9955,
+      "autoSubmit": true,
+      "ocrMs": 36.13,
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1,
+        "radius": 48
+      }
+    },
+    {
+      "id": 8,
+      "portalAccepted": true,
+      "text": "472188",
+      "score": 0.9855,
+      "autoSubmit": true,
+      "ocrMs": 34.73,
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1,
+        "radius": 57
+      }
+    },
+    {
+      "id": 9,
+      "portalAccepted": true,
+      "text": "152984",
+      "score": 0.9938,
+      "autoSubmit": true,
+      "ocrMs": 32.28,
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1,
+        "radius": 45
+      }
+    },
+    {
+      "id": 10,
+      "portalAccepted": true,
+      "text": "502487",
+      "score": 0.9969,
+      "autoSubmit": true,
+      "ocrMs": 33.85,
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1,
+        "radius": 45
+      }
+    },
+    {
+      "id": 11,
+      "portalAccepted": true,
+      "text": "466326",
+      "score": 0.9985,
+      "autoSubmit": true,
+      "ocrMs": 30.64,
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1,
+        "radius": 48
+      }
+    }
+  ],
+  "summary": {
+    "successfulLookups": 10,
+    "totalLookups": 10,
+    "challenges": 11,
+    "submitted": 10,
+    "accepted": 10,
+    "rejected": 0,
+    "medianLookupMs": 1010.5
+  }
+}

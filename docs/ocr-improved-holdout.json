@@ -1,0 +1,538 @@
+{
+  "solver": "ensemble-fisheye",
+  "samples": 16,
+  "correct": 16,
+  "autoSubmitted": 15,
+  "autoSubmitErrors": 0,
+  "exactMatch": 1.0,
+  "autoSubmitCoverage": 0.9375,
+  "acceptedExactMatch": 1.0,
+  "medianMs": 32.28,
+  "results": [
+    {
+      "text": "810951",
+      "score": 0.998,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 35.72,
+      "candidates": [
+        {
+          "text": "810951",
+          "score": 0.9998,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "810951",
+          "score": 0.998,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 46
+      },
+      "image": "holdout-01.png",
+      "expected": "810951",
+      "correct": true
+    },
+    {
+      "text": "620989",
+      "score": 0.9986,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 34.15,
+      "candidates": [
+        {
+          "text": "620989",
+          "score": 0.9991,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "620989",
+          "score": 0.9986,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 51
+      },
+      "image": "holdout-02.png",
+      "expected": "620989",
+      "correct": true
+    },
+    {
+      "text": "992785",
+      "score": 0.943,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 33.54,
+      "candidates": [
+        {
+          "text": "992785",
+          "score": 0.9982,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "992785",
+          "score": 0.943,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 47
+      },
+      "image": "holdout-03.png",
+      "expected": "992785",
+      "correct": true
+    },
+    {
+      "text": "455757",
+      "score": 0.9994,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 33.47,
+      "candidates": [
+        {
+          "text": "455757",
+          "score": 0.9997,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "455757",
+          "score": 0.9994,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 49
+      },
+      "image": "holdout-04.png",
+      "expected": "455757",
+      "correct": true
+    },
+    {
+      "text": "141118",
+      "score": 0.7004,
+      "variant": "rectified-crop",
+      "model": "standard",
+      "valid": true,
+      "autoSubmit": false,
+      "reason": "Insufficient model agreement.",
+      "elapsedMs": 67.24,
+      "candidates": [
+        {
+          "text": "1418",
+          "score": 0.4558,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "141118",
+          "score": 0.1756,
+          "variant": "rectified",
+          "model": "standard"
+        },
+        {
+          "text": "141118",
+          "score": 0.6693,
+          "variant": "rectified-crop",
+          "model": "beta"
+        },
+        {
+          "text": "141118",
+          "score": 0.7004,
+          "variant": "rectified-crop",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 47
+      },
+      "image": "holdout-05.png",
+      "expected": "141118",
+      "correct": true
+    },
+    {
+      "text": "169163",
+      "score": 0.8944,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 31.77,
+      "candidates": [
+        {
+          "text": "169163",
+          "score": 0.9847,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "169163",
+          "score": 0.8944,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 55
+      },
+      "image": "holdout-06.png",
+      "expected": "169163",
+      "correct": true
+    },
+    {
+      "text": "813669",
+      "score": 0.9971,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 32.16,
+      "candidates": [
+        {
+          "text": "813669",
+          "score": 0.9998,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "813669",
+          "score": 0.9971,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 51
+      },
+      "image": "holdout-07.png",
+      "expected": "813669",
+      "correct": true
+    },
+    {
+      "text": "646730",
+      "score": 0.9865,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 32.65,
+      "candidates": [
+        {
+          "text": "646730",
+          "score": 0.9865,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "646730",
+          "score": 0.995,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 50
+      },
+      "image": "holdout-08.png",
+      "expected": "646730",
+      "correct": true
+    },
+    {
+      "text": "256695",
+      "score": 0.9872,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 31.58,
+      "candidates": [
+        {
+          "text": "256695",
+          "score": 0.9977,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "256695",
+          "score": 0.9872,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 58
+      },
+      "image": "holdout-09.png",
+      "expected": "256695",
+      "correct": true
+    },
+    {
+      "text": "387850",
+      "score": 0.9711,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 32.35,
+      "candidates": [
+        {
+          "text": "387850",
+          "score": 0.9711,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "387850",
+          "score": 0.9982,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 54
+      },
+      "image": "holdout-10.png",
+      "expected": "387850",
+      "correct": true
+    },
+    {
+      "text": "255444",
+      "score": 0.997,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 32.04,
+      "candidates": [
+        {
+          "text": "255444",
+          "score": 0.9999,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "255444",
+          "score": 0.997,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 58
+      },
+      "image": "holdout-11.png",
+      "expected": "255444",
+      "correct": true
+    },
+    {
+      "text": "366471",
+      "score": 0.977,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 32.2,
+      "candidates": [
+        {
+          "text": "366471",
+          "score": 0.977,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "366471",
+          "score": 0.9955,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 56
+      },
+      "image": "holdout-12.png",
+      "expected": "366471",
+      "correct": true
+    },
+    {
+      "text": "727412",
+      "score": 0.9861,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 31.57,
+      "candidates": [
+        {
+          "text": "727412",
+          "score": 0.9993,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "727412",
+          "score": 0.9861,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 51
+      },
+      "image": "holdout-13.png",
+      "expected": "727412",
+      "correct": true
+    },
+    {
+      "text": "829082",
+      "score": 0.9826,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 32.89,
+      "candidates": [
+        {
+          "text": "829082",
+          "score": 0.9976,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "829082",
+          "score": 0.9826,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 57
+      },
+      "image": "holdout-14.png",
+      "expected": "829082",
+      "correct": true
+    },
+    {
+      "text": "511525",
+      "score": 0.8253,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 32.04,
+      "candidates": [
+        {
+          "text": "511525",
+          "score": 0.9995,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "511525",
+          "score": 0.8253,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 49
+      },
+      "image": "holdout-15.png",
+      "expected": "511525",
+      "correct": true
+    },
+    {
+      "text": "527167",
+      "score": 0.9976,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 31.42,
+      "candidates": [
+        {
+          "text": "527167",
+          "score": 0.9999,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "527167",
+          "score": 0.9976,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 46
+      },
+      "image": "holdout-16.png",
+      "expected": "527167",
+      "correct": true
+    }
+  ]
+}

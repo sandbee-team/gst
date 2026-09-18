@@ -1,0 +1,13 @@
+**
+!package.json
+!package-lock.json
+!requirements.txt
+!server.js
+!captcha_ocr.py
+!captcha_preprocess.py
+!vite.config.mjs
+!backend/**
+!lib/**
+!frontend/**
+frontend/dist
+frontend/node_modules

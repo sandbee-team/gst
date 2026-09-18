@@ -1,0 +1,39 @@
+name: sandbee-gstin-production
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    init: true
+    environment:
+      NODE_ENV: production
+      APP_URL: https://${DOMAIN:-gstapi.sandbee.in}
+      HOST: 0.0.0.0
+      PORT: 3000
+      TRUST_PROXY: 1
+      SESSION_SECRET: ${SESSION_SECRET:?Set SESSION_SECRET in .env.production}
+      MONGODB_URI: ${MONGODB_URI:?Set your MongoDB URI in .env.production}
+      MONGODB_DB: ${MONGODB_DB:-sandbee_gstin}
+      GMAIL_USER: ${GMAIL_USER:?Set GMAIL_USER in .env.production}
+      GMAIL_APP_PASSWORD: ${GMAIL_APP_PASSWORD:?Set GMAIL_APP_PASSWORD in .env.production}
+      MAIL_FROM: ${MAIL_FROM:-}
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    read_only: true
+    tmpfs: ["/tmp:size=128m,mode=1777"]
+    pids_limit: 128
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports: ["80:80", "443:443", "443:443/udp"]
+    environment:
+      DOMAIN: ${DOMAIN:-gstapi.sandbee.in}
+    volumes:
+      - ./deploy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      app:
+        condition: service_healthy
+volumes:
+  caddy_data:
+  caddy_config:

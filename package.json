@@ -1,0 +1,54 @@
+{
+  "name": "gstin-by-sandbee",
+  "version": "1.0.0",
+  "description": "Secure GST lookup SaaS with React, Node.js, MongoDB and local OCR",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "vite build",
+    "dev:api": "node --watch server.js",
+    "dev:web": "vite --host 127.0.0.1",
+    "setup": "node scripts/setup-env.js",
+    "lookup": "node gst-cli.js",
+    "test": "node --test test/*.test.js",
+    "test:ui": "npm run build && playwright test",
+    "check": "node --check server.js && node --check backend/app.js && node --check backend/gst-service.js && node --check lib/gst-client.js && node --check lib/ocr-worker.js && node --check lib/lookup.js",
+    "format": "prettier --write \"frontend/src/**/*.{jsx,css}\" \"backend/*.js\" server.js vite.config.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sivunq/fetch-GST-details-without-using-any-paid-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sivunq/fetch-GST-details-without-using-any-paid-API/issues"
+  },
+  "homepage": "https://github.com/sivunq/fetch-GST-details-without-using-any-paid-API#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "mongodb-memory-server": "^11.2.0",
+    "prettier": "^3.9.8",
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^18.0.0",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.7.0",
+    "helmet": "^8.3.0",
+    "lru-cache": "^11.5.2",
+    "lucide-react": "^1.47.0",
+    "mongodb": "^7.6.0",
+    "nodemailer": "^10.0.10",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  }
+}

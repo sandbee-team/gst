@@ -1,0 +1,550 @@
+{
+  "solver": "ensemble-fisheye",
+  "samples": 16,
+  "correct": 16,
+  "autoSubmitted": 15,
+  "autoSubmitErrors": 0,
+  "exactMatch": 1.0,
+  "autoSubmitCoverage": 0.9375,
+  "acceptedExactMatch": 1.0,
+  "medianMs": 32.86,
+  "results": [
+    {
+      "text": "578453",
+      "score": 0.9693,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 39.79,
+      "candidates": [
+        {
+          "text": "578453",
+          "score": 0.9693,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "578453",
+          "score": 0.997,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 51
+      },
+      "image": "dev-01.png",
+      "expected": "578453",
+      "correct": true
+    },
+    {
+      "text": "699145",
+      "score": 0.9901,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 32.26,
+      "candidates": [
+        {
+          "text": "699145",
+          "score": 0.9901,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "699145",
+          "score": 0.998,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 59
+      },
+      "image": "dev-02.png",
+      "expected": "699145",
+      "correct": true
+    },
+    {
+      "text": "489917",
+      "score": 0.9983,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 32.94,
+      "candidates": [
+        {
+          "text": "489917",
+          "score": 1.0,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "489917",
+          "score": 0.9983,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 49
+      },
+      "image": "dev-03.png",
+      "expected": "489917",
+      "correct": true
+    },
+    {
+      "text": "363544",
+      "score": 0.9998,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 33.65,
+      "candidates": [
+        {
+          "text": "363544",
+          "score": 1.0,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "363544",
+          "score": 0.9998,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 49
+      },
+      "image": "dev-04.png",
+      "expected": "363544",
+      "correct": true
+    },
+    {
+      "text": "136809",
+      "score": 0.999,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 31.47,
+      "candidates": [
+        {
+          "text": "136809",
+          "score": 0.9995,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "136809",
+          "score": 0.999,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 58
+      },
+      "image": "dev-05.png",
+      "expected": "136809",
+      "correct": true
+    },
+    {
+      "text": "517761",
+      "score": 0.2019,
+      "variant": "rectified-crop",
+      "model": "beta",
+      "valid": true,
+      "autoSubmit": false,
+      "reason": "Insufficient model agreement.",
+      "elapsedMs": 68.65,
+      "candidates": [
+        {
+          "text": "517761",
+          "score": 0.0376,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "517701",
+          "score": 0.1431,
+          "variant": "rectified",
+          "model": "standard"
+        },
+        {
+          "text": "517761",
+          "score": 0.2019,
+          "variant": "rectified-crop",
+          "model": "beta"
+        },
+        {
+          "text": "517761",
+          "score": 0.0237,
+          "variant": "rectified-crop",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 60
+      },
+      "image": "dev-06.png",
+      "expected": "517761",
+      "correct": true
+    },
+    {
+      "text": "837282",
+      "score": 0.9997,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 32.5,
+      "candidates": [
+        {
+          "text": "837282",
+          "score": 1.0,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "837282",
+          "score": 0.9997,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 47
+      },
+      "image": "dev-07.png",
+      "expected": "837282",
+      "correct": true
+    },
+    {
+      "text": "556807",
+      "score": 0.9887,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 32.86,
+      "candidates": [
+        {
+          "text": "556807",
+          "score": 0.995,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "556807",
+          "score": 0.9887,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 54
+      },
+      "image": "dev-08.png",
+      "expected": "556807",
+      "correct": true
+    },
+    {
+      "text": "727812",
+      "score": 0.9975,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 31.38,
+      "candidates": [
+        {
+          "text": "727812",
+          "score": 0.9997,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "727812",
+          "score": 0.9975,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 56
+      },
+      "image": "dev-09.png",
+      "expected": "727812",
+      "correct": true
+    },
+    {
+      "text": "398830",
+      "score": 0.999,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 30.85,
+      "candidates": [
+        {
+          "text": "398830",
+          "score": 0.999,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "398830",
+          "score": 0.9993,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 59
+      },
+      "image": "dev-10.png",
+      "expected": "398830",
+      "correct": true
+    },
+    {
+      "text": "885855",
+      "score": 0.9946,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 33.86,
+      "candidates": [
+        {
+          "text": "885855",
+          "score": 0.9987,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "885855",
+          "score": 0.9946,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 52
+      },
+      "image": "dev-11.png",
+      "expected": "885855",
+      "correct": true
+    },
+    {
+      "text": "380925",
+      "score": 0.9975,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 32.59,
+      "candidates": [
+        {
+          "text": "380925",
+          "score": 0.9996,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "380925",
+          "score": 0.9975,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 53
+      },
+      "image": "dev-12.png",
+      "expected": "380925",
+      "correct": true
+    },
+    {
+      "text": "747311",
+      "score": 0.8235,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 33.55,
+      "candidates": [
+        {
+          "text": "747311",
+          "score": 0.8235,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "747311",
+          "score": 0.9914,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 52
+      },
+      "image": "dev-13.png",
+      "expected": "747311",
+      "correct": true
+    },
+    {
+      "text": "369056",
+      "score": 0.9988,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 32.85,
+      "candidates": [
+        {
+          "text": "369056",
+          "score": 0.9998,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "369056",
+          "score": 0.9988,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 47
+      },
+      "image": "dev-14.png",
+      "expected": "369056",
+      "correct": true
+    },
+    {
+      "text": "779294",
+      "score": 0.9603,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 64.24,
+      "candidates": [
+        {
+          "text": "779294",
+          "score": 0.7717,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "779294",
+          "score": 0.9978,
+          "variant": "rectified",
+          "model": "standard"
+        },
+        {
+          "text": "779294",
+          "score": 0.9603,
+          "variant": "rectified-crop",
+          "model": "beta"
+        },
+        {
+          "text": "779294",
+          "score": 0.7641,
+          "variant": "rectified-crop",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 57
+      },
+      "image": "dev-15.png",
+      "expected": "779294",
+      "correct": true
+    },
+    {
+      "text": "468846",
+      "score": 0.9997,
+      "variant": "rectified",
+      "valid": true,
+      "autoSubmit": true,
+      "reason": "Two models agree.",
+      "elapsedMs": 30.5,
+      "candidates": [
+        {
+          "text": "468846",
+          "score": 0.9999,
+          "variant": "rectified",
+          "model": "beta"
+        },
+        {
+          "text": "468846",
+          "score": 0.9997,
+          "variant": "rectified",
+          "model": "standard"
+        }
+      ],
+      "engine": "ddddocr-ensemble",
+      "preprocessing": {
+        "style": "fisheye-grid",
+        "fit": 1.0,
+        "radius": 60
+      },
+      "image": "dev-16.png",
+      "expected": "468846",
+      "correct": true
+    }
+  ]
+}

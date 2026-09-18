@@ -1,0 +1,21 @@
+# Environments and dependencies
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+frontend/dist/
+
+# Runtime and scratch output
+.captcha-cookie
+captcha.png
+debug_*.png
+.research-*
+.gst-captcha-*
+benchmark.local.json
+
+# Test output
+test-results/
+playwright-report/

@@ -1,0 +1,189 @@
+{
+  "solver": "baseline",
+  "samples": 16,
+  "correct": 7,
+  "autoSubmitted": 2,
+  "autoSubmitErrors": 1,
+  "exactMatch": 0.4375,
+  "autoSubmitCoverage": 0.125,
+  "acceptedExactMatch": 0.5,
+  "medianMs": 28.69,
+  "results": [
+    {
+      "text": "810951",
+      "score": 0.5771486163139343,
+      "variant": "cleaned",
+      "valid": true,
+      "autoSubmit": false,
+      "elapsedMs": 31.1556999986351,
+      "image": "holdout-01.png",
+      "expected": "810951",
+      "correct": true
+    },
+    {
+      "text": "620389",
+      "score": 0.607645571231842,
+      "variant": "cleaned",
+      "valid": true,
+      "autoSubmit": false,
+      "elapsedMs": 27.823500000522472,
+      "image": "holdout-02.png",
+      "expected": "620989",
+      "correct": false
+    },
+    {
+      "text": "992735",
+      "score": 0.9737194776535034,
+      "variant": "cleaned",
+      "valid": true,
+      "autoSubmit": true,
+      "elapsedMs": 15.765999996801838,
+      "image": "holdout-03.png",
+      "expected": "992785",
+      "correct": false
+    },
+    {
+      "text": "455757",
+      "score": 0.6659072637557983,
+      "variant": "cleaned",
+      "valid": true,
+      "autoSubmit": false,
+      "elapsedMs": 28.34179999990738,
+      "image": "holdout-04.png",
+      "expected": "455757",
+      "correct": true
+    },
+    {
+      "text": "148",
+      "score": 0.8136590719223022,
+      "variant": "original",
+      "valid": false,
+      "autoSubmit": false,
+      "elapsedMs": 28.72869999919203,
+      "image": "holdout-05.png",
+      "expected": "141118",
+      "correct": false
+    },
+    {
+      "text": "16963",
+      "score": 0.33771127462387085,
+      "variant": "cleaned",
+      "valid": false,
+      "autoSubmit": false,
+      "elapsedMs": 30.28679999988526,
+      "image": "holdout-06.png",
+      "expected": "169163",
+      "correct": false
+    },
+    {
+      "text": "813669",
+      "score": 0.5453985333442688,
+      "variant": "cleaned",
+      "valid": true,
+      "autoSubmit": false,
+      "elapsedMs": 30.56250000008731,
+      "image": "holdout-07.png",
+      "expected": "813669",
+      "correct": true
+    },
+    {
+      "text": "646730",
+      "score": 0.6564110517501831,
+      "variant": "cleaned",
+      "valid": true,
+      "autoSubmit": false,
+      "elapsedMs": 29.928299998573493,
+      "image": "holdout-08.png",
+      "expected": "646730",
+      "correct": true
+    },
+    {
+      "text": "256695",
+      "score": 0.9055370092391968,
+      "variant": "cleaned",
+      "valid": true,
+      "autoSubmit": true,
+      "elapsedMs": 16.29049999974086,
+      "image": "holdout-09.png",
+      "expected": "256695",
+      "correct": true
+    },
+    {
+      "text": "387850",
+      "score": 0.7762165665626526,
+      "variant": "original",
+      "valid": true,
+      "autoSubmit": false,
+      "elapsedMs": 28.137499997683335,
+      "image": "holdout-10.png",
+      "expected": "387850",
+      "correct": true
+    },
+    {
+      "text": "2554",
+      "score": 0.25401321053504944,
+      "variant": "original",
+      "valid": false,
+      "autoSubmit": false,
+      "elapsedMs": 26.182300000073155,
+      "image": "holdout-11.png",
+      "expected": "255444",
+      "correct": false
+    },
+    {
+      "text": "3667",
+      "score": 0.6718153953552246,
+      "variant": "original",
+      "valid": false,
+      "autoSubmit": false,
+      "elapsedMs": 30.880800000886666,
+      "image": "holdout-12.png",
+      "expected": "366471",
+      "correct": false
+    },
+    {
+      "text": "7272",
+      "score": 0.8532381057739258,
+      "variant": "cleaned",
+      "valid": false,
+      "autoSubmit": false,
+      "elapsedMs": 26.80990000226302,
+      "image": "holdout-13.png",
+      "expected": "727412",
+      "correct": false
+    },
+    {
+      "text": "829082",
+      "score": 0.2563660144805908,
+      "variant": "original",
+      "valid": true,
+      "autoSubmit": false,
+      "elapsedMs": 28.659699997660937,
+      "image": "holdout-14.png",
+      "expected": "829082",
+      "correct": true
+    },
+    {
+      "text": "555",
+      "score": 0.5430275797843933,
+      "variant": "original",
+      "valid": false,
+      "autoSubmit": false,
+      "elapsedMs": 31.62969999902998,
+      "image": "holdout-15.png",
+      "expected": "511525",
+      "correct": false
+    },
+    {
+      "text": "52767",
+      "score": 0.7330425381660461,
+      "variant": "cleaned",
+      "valid": false,
+      "autoSubmit": false,
+      "elapsedMs": 30.93520000038552,
+      "image": "holdout-16.png",
+      "expected": "527167",
+      "correct": false
+    }
+  ]
+}

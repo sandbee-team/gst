@@ -1,0 +1,52 @@
+name: sandbee-gstin
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    init: true
+    ports:
+      - "127.0.0.1:8080:3000"
+    environment:
+      NODE_ENV: development
+      APP_URL: http://localhost:8080
+      HOST: 0.0.0.0
+      PORT: 3000
+      SESSION_SECRET: ${SESSION_SECRET:?Run node scripts/setup-env.js first}
+      MONGODB_URI: mongodb://sandbee:${MONGO_PASSWORD:?Run setup-env.js}@mongo:27017/sandbee_gstin?authSource=admin
+      MONGODB_DB: sandbee_gstin
+      GMAIL_USER: ${GMAIL_USER:-}
+      GMAIL_APP_PASSWORD: ${GMAIL_APP_PASSWORD:-}
+      MAIL_FROM: ${MAIL_FROM:-}
+      SMTP_HOST: mailpit
+      SMTP_PORT: 1025
+    depends_on:
+      mongo:
+        condition: service_healthy
+      mailpit:
+        condition: service_started
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    read_only: true
+    tmpfs: ["/tmp:size=128m,mode=1777"]
+    pids_limit: 128
+  mailpit:
+    image: axllent/mailpit:v1.27
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:${MAILPIT_PORT:-8026}:8025"
+    security_opt: ["no-new-privileges:true"]
+  mongo:
+    image: mongo:8.0
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: sandbee
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD:?Run setup-env.js}
+    volumes:
+      - mongo_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "quit(db.adminCommand('ping').ok ? 0 : 1)"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+volumes:
+  mongo_data:
